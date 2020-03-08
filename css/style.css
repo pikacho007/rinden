@@ -39,7 +39,6 @@ body {
     padding-top: 23px;
     padding-left: 15px;
 
-
     -moz-font-size: 30px;
     -moz-font-family: "楷体-繁","ヒラギノ角ゴ";
     -moz-padding-top: 23px;
@@ -56,53 +55,9 @@ body {
     -webkit-padding-left: 10px;
   }
 
- #header .info {
-   margin-top: 5px;
-   margin-left: 330px;
-   line-height: 10px;
+ 
 
-   -moz-margin-top: 5px;
-   -moz-margin-left: 330px;
-   -moz-line-height: 10px;
-
-   -ms-margin-top: 5px;
-   -ms-margin-left: 330px;
-   -ms-line-height: 10px;
-
-   -ms-margin-top: 5px;
-   -webkit-margin-left: 330px;
-   -webkit-line-height: 10px;
-
- }
-
- #header .info  p {
-   padding-top: 8px;
-   padding-bottom: 8px;
-
-   -moz-padding-top: 8px;
-   -moz-padding-bottom: 8px;
-
-
-   -ms-padding-top: 8px;
-   -ms-padding-bottom: 8px;
-
-
-   -webkit-padding-top: 8px;
-   -webkit-padding-bottom: 8px;
-
-
- }
-
- #header .flex {
-   display: flex;
-
-   -moz-display: flex;
-
-   -ms-display: flex;
-
-   -webkit-display: flex;
-
- }
+ 
 
 #menubar {
   width: 100%;
@@ -467,10 +422,6 @@ body {
 
 }
 
-
-
-
-
 .drink_menu_title {
   border-bottom: solid #333 1px;
   padding-top: 35px;
@@ -548,7 +499,6 @@ body {
   line-height: 7;
 
 
-
   -moz-font-size: 13px;
   -moz-text-align: center;
   -moz-line-height: 7;
@@ -600,26 +550,14 @@ body {
   -webkit-padding-bottom: 10px;
 }
 
-
+} /* @media screen 480  */
 /* スマホサイズ終わり*/
 
 
-
-
 /* PCサイズ */
-  @media screen and (min-width: 736px)  {
+  @media screen and (max-width: 768px)  {
 
-    #header .info {
-      padding: 10px 20px 20px 770px;
-
-      -moz-padding: 10px 20px 20px 770px;
-
-      -ms-padding: 10px 20px 20px 770px;
-
-      -webkit-padding: 10px 20px 20px 770px;
-
-    }
-
+   
 
     #header .title {
       margin: 10px 0 20px 0;
@@ -663,12 +601,6 @@ body {
 
   -webkit-margin-left: 10px;
 }
-
-
-
-
-
-
 
 #accece img {
   height: 500px;
@@ -762,4 +694,4 @@ body {
   -webkit-margin-top: 15px;
 }
 
-  }/* PCサイズ終わり*/
+  }/* PCサイズ終わり*/ /* @media screen 480  */
