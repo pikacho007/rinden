@@ -33,32 +33,39 @@ body {
   }
 
   #header .title {
-    font-size: 30px;
+    font-size: 28px;
     font-family: "楷体-繁","ヒラギノ角ゴ";
-    padding-top: 15px;
+    padding-top: 25px;
     padding-left: 15px;
 
-    -moz-font-size: 30px;
+    -moz-font-size: 28px;
     -moz-font-family: "楷体-繁","ヒラギノ角ゴ";
-    -moz-padding-top: 15px;
+    -moz-padding-top: 25px;
     -moz-padding-left: 15px;
 
-    -ms-font-size: 30px;
+    -ms-font-size: 28px;
     -ms-font-family: "楷体-繁","ヒラギノ角ゴ";
-    -ms-padding-top: 15px;
+    -ms-padding-top: 25px;
     -ms-padding-left: 15px;
 
-    -webkit-font-size: 30px;
+    -webkit-font-size: 28px;
     -webkit-font-family: "楷体-繁","ヒラギノ角ゴ";
-    -webkit-padding-top: 15px;
+    -webkit-padding-top: 25px;
     -webkit-padding-left: 15px;
   }
 
+.info {
+  padding-top: 15px;
+  padding-left: 150px;
+  font-size: 14px;
+}
 
-  
 #menubar {
   width: 100%;
   height: 47px;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
  #menubar ul {
@@ -78,7 +85,7 @@ body {
  #menubar li {
    padding-top: 10px;
    padding-bottom: 10px;
-   padding-left: 90px;
+   padding-left: 75px;
 
    -moz-padding-top: 10px;
    -moz-padding-bottom: 10px;
@@ -293,23 +300,19 @@ body {
 }
 
 .pic3 img {
-  width: 252px;
-  height: 234px;
-  -o-object-fit: cover;
-     object-fit: cover;
-
-  -moz-width: 252px;
-  -moz-height: 234px;
-  -moz-object-fit: cover;
-
-  -ms-width: 252px;
-  -ms-height: 234px;
-  -ms-object-fit: cover;
-
-  -webkit-width: 252px;
-  -webkit-height: 234px;
-  -webkit-object-fit: cover;
+  width: 100%;
 }
+
+#main_contents .bxslider{
+  padding-top: 10px;
+
+  padding-top: 10px;
+
+  padding-top: 10px;
+
+  padding-top: 10px;
+}
+
 
 .gap {
   margin-top: 40px;
@@ -564,7 +567,11 @@ body {
       -ms-margin: 10px 0 10px 0;
 
       -webkit-margin: 10px 0 10px 0;
+    }
 
+    .info {
+        padding-top: 11px;
+        padding-left: 700px;
     }
 
 #menubar ul li {
@@ -597,6 +604,10 @@ body {
   -ms-margin-left: 10px;
 
   -webkit-margin-left: 10px;
+}
+
+.pic1 img {
+  max-width: 100%;
 }
 
 #accece img {
