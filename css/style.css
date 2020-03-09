@@ -10,10 +10,9 @@ body {
 
   -webkit-width: 100%;
   -webkit-height: 100%;
-
 }
 
-/* スマホサイズ */
+/* スマホサイズ 480px以下用（スマートフォン用）の記述 */
 
 @media screen and (min-width: 480px) {
 
