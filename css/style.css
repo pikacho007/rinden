@@ -511,14 +511,35 @@ body {
   -webkit-padding-bottom: 10px;
 }
 
-} /* @media screen 480  */
-/* スマホサイズ終わり*/
+} /* スマホサイズ終わり*/
+
+/* タブレットサイズ */
+@media screen and (min-width: 768px) {
+
+  .info {
+    padding-top: 15px;
+    padding-left: 150px;
+    font-size: 14px;
+  }
+
+  .pic1 img {
+    width: 100%;
+  }
+  
+  .pic2 img {
+    width: 100%;
+  }
+  
+  .pic3 img {
+    width: 100%;
+  }
+
+
+}/* タブレットサイズ　終わり */
 
 
 /* PCサイズ */
-  @media screen and (max-width: 768px)  {
-
-   
+  @media screen and (min-width: 980px)  {
 
     #header .title {
       margin: 10px 0 20px 0;
