@@ -100,24 +100,12 @@ body {
    -webkit-padding-left: 90px;
  }
 
- #menubar li:hover {
-  text-decoration: underline;
-
-
-  -moz-text-decoration: underline;
-
-  -ms-text-decoration: underline;
-
-  -webkit-text-decoration: underline;
-
-}
 
 #menubar a {
   position: relative;
   display: inline-block;
   text-decoration: none;
   color: #000;
-
 
   -moz-position: relative;
   -moz-display: inline-block;
@@ -200,7 +188,6 @@ body {
   -webkit-visibility: visible;
 }
 
-
 .back_color{
   background-color: #f4f0ca;
   padding-top: 15px;
@@ -260,29 +247,8 @@ body {
   -webkit-padding-bottom: 5px;
 }
 
-#main_contents .bxslider{
-  padding-top: 10px;
-
-  padding-top: 10px;
-
-  padding-top: 10px;
-
-  padding-top: 10px;
-}
-
 .pic1 img {
-  width: 252px;
-  height: 234px;
-
-
-  -moz-width: 252px;
-  -moz-height: 234px;
-
-  -ms-width: 252px;
-  -ms-height: 234px;
-
-  -webkit-width: 252px;
-  -webkit-height: 234px;
+  width: 100%;
 }
 
 .pic2 img {
@@ -419,7 +385,6 @@ body {
 
   -webkit-padding-top: 15px;
   -webkit-padding-bottom: 15px;
-
 }
 
 .drink_menu_title {
@@ -430,7 +395,6 @@ body {
   font-size: 15px;
   padding-left: 20px;
 }
-
 
 .menu_list ul {
   list-style: none;
@@ -463,9 +427,6 @@ body {
 .menu_list .charame p {
   padding-bottom: 50px;
 }
-
-
-
 
 #footer {
   background-color: #cfe0a3;
