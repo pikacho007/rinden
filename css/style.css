@@ -252,17 +252,7 @@ body {
 }
 
 .pic2 img {
-  width: 252px;
-  height: 234px;
-
-  -moz-width: 252px;
-  -moz-height: 234px;
-
-  -ms-width: 252px;
-  -ms-height: 234px;
-
-  -webkit-width: 252px;
-  -webkit-height: 234px;
+  width: 100%;
 }
 
 .pic3 img {
@@ -566,16 +556,8 @@ body {
   -webkit-padding-left: 300px;
 }
 
-
-
 #main_contents img {
-  width: 1440px;
-
-  -moz-width: 1440px;
-
-  -ms-width: 1440px;
-
-  -webkit-width: 1440px;
+  max-width: 100%;
 }
 
 .padding {
