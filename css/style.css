@@ -43,6 +43,7 @@ body {
     font-family: "楷体-繁","ヒラギノ角ゴ";
     padding-top: 30px;
     padding-left: 15px;
+    
 
     -webkit-font-size: 23px;
     -webkit-font-family: "楷体-繁","ヒラギノ角ゴ";
@@ -116,8 +117,11 @@ body {
 
    -webkit-padding-top: 10px;
    -webkit-padding-bottom: 10px;
-   -webkit-padding-left: px;
  }
+
+ #menubar .gap_left {
+  padding-left: 50px;
+}
 
 #menubar a {
   position: relative;
@@ -703,6 +707,10 @@ body {
 
    -webkit-padding-top: 10px;
    -webkit-padding-bottom: 10px;
+ }
+
+ #menubar .gap_left {
+   padding-left: 100px;
  }
 
 #menubar a {
