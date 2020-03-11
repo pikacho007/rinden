@@ -107,15 +107,12 @@ body {
  #menubar li {
    padding-top: 10px;
    padding-bottom: 10px;
-   padding-left: 45px;
-
+   
    -moz-padding-top: 10px;
    -moz-padding-bottom: 10px;
-   -moz-padding-left: px;
 
    -ms-padding-top: 10px;
    -ms-padding-bottom: 10px;
-   -ms-padding-left: px;
 
    -webkit-padding-top: 10px;
    -webkit-padding-bottom: 10px;
@@ -697,7 +694,6 @@ body {
  #menubar li {
    padding-top: 10px;
    padding-bottom: 10px;
-   padding-left: 40px; 
 
    -moz-padding-top: 10px;
    -moz-padding-bottom: 10px;
