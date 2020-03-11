@@ -60,24 +60,6 @@ body {
     -moz-padding-left: 15px;
   }
 
-#header .info {
-  padding-top: 15px;
-    padding-left: 150px;
-    font-size: 14px;
-
-    -webkit-padding-top: 15px;
-    -webkit-padding-left: 150px;
-    -webkit-font-size: 14px;
-
-    -ms-padding-top: 15px;
-    -ms-padding-left: 150px;
-    -ms-font-size: 14px;
-
-    -moz-padding-top: 15px;
-    -moz-padding-left: 150px;
-    -moz-font-size: 14px;
-}
-
 #menubar {
   width: 100%;
   height: 47px;
@@ -659,24 +641,6 @@ body {
     -moz-display: flex;
 
     -ms-display: flex;
-  }
-
-  #header .info {
-    padding-top: 15px;
-    padding-left: 150px;
-    font-size: 14px;
-
-    -webkit-padding-top: 15px;
-    -webkit-padding-left: 150px;
-    -webkit-font-size: 14px;
-
-    -ms-padding-top: 15px;
-    -ms-padding-left: 150px;
-    -ms-font-size: 14px;
-
-    -moz-padding-top: 15px;
-    -moz-padding-left: 150px;
-    -moz-font-size: 14px;
   }
 
 #menubar {
