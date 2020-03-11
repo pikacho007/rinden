@@ -64,22 +64,29 @@ body {
   width: 100%;
   height: 47px;
   font-size: 13px;
+  display: flex;
+  justify-content: center;
   padding-top: 5px;
-  padding-left: 150px; 
 
   -webkit-width: 100%;
   -webkit-height: 47px;
   -webkit-font-size: 13px;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
   -webkit-padding-top: 5px;
-
+ 
   -ms-width: 100%;
   -ms-height: 47px;
   -ms-font-size: 13px;
+  -ms-display: flex;
+  -ms-justify-content: center;
   -ms-padding-top: 5px;
 
   -moz-width: 100%;
   -moz-height: 47px;
   -moz-font-size: 13px;
+  -moz-display: flex;
+  -moz-justify-content: center;
   -moz-padding-top: 5px;
 }
 
@@ -647,22 +654,29 @@ body {
   width: 100%;
   height: 47px;
   font-size: 13px;
+  display: flex;
+  justify-content: center;
   padding-top: 5px;
-  padding-left: 80px;
+
 
   -webkit-width: 100%;
   -webkit-height: 47px;
-  -webkit-font-size: 13px;
+  -webkit-display: flex;
+  -webkit-justify-content: center;
   -webkit-padding-top: 5px;
 
   -ms-width: 100%;
   -ms-height: 47px;
   -ms-font-size: 13px;
+  -ms-display: flex;
+  -ms-justify-content: center;
   -ms-padding-top: 5px;
 
   -moz-width: 100%;
   -moz-height: 47px;
   -moz-font-size: 13px;
+  -moz-display: flex;
+  -moz-justify-content: center;
   -moz-padding-top: 5px;
 }
 
