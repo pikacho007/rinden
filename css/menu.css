@@ -311,8 +311,6 @@ body {
         -ms-padding: 15px;
     }
 }
-
-
 /* スマホサイズ終わり  */
 
 
@@ -563,8 +561,6 @@ body {
         -ms-padding: 15px;
     }
 }
-
-
 /* タブレットサイズ終わり */
 
 
@@ -773,6 +769,10 @@ body {
         -webkit-padding-bottom: 10px;
         -webkit-padding-left: 15px;
     }
+
+    .flex {
+        display: flex;
+    }
     .back_color {
         background-color: #f4f0ca;
         padding-top: 15px;
@@ -824,14 +824,11 @@ body {
         -ms-padding: 15px;
     }
 }
+/* PCサイズ終わり */
 
 
-/* スマホサイズ終わり  */
-
-
-/* タブレットサイズ */
-
-@media screen and (max-width: 896px) {
+/* 大きいPCサイズ */
+@media screen and (min-width: 1025px) {
     #header {
         width: 100%;
         height: 90px;
@@ -868,12 +865,6 @@ body {
         -moz-padding-top: 30px;
         -moz-padding-left: 15px;
     }
-    .flex {
-        display: flex;
-        -webkit-display: flex;
-        -moz-display: flex;
-        -ms-display: flex;
-    }
     #menubar {
         width: 100%;
         height: 47px;
@@ -883,6 +874,7 @@ body {
         padding-top: 5px;
         -webkit-width: 100%;
         -webkit-height: 47px;
+        -webkit-font-size: 13px;
         -webkit-display: flex;
         -webkit-justify-content: center;
         -webkit-padding-top: 5px;
@@ -920,10 +912,10 @@ body {
         -webkit-padding-bottom: 10px;
     }
     #menubar .gap_left {
-        padding-left: 200px;
-        -webkit-padding-left: 200px;
-        -moz-padding-left: 200px;
-        -ms-padding-left: 200px;
+        padding-left: 50px;
+        -webkit-padding-left: 50px;
+        -moz-padding-left: 50px;
+        -ms-padding-left: 50px;
     }
     #menubar a {
         position: relative;
@@ -985,27 +977,19 @@ body {
         -webkit-visibility: hidden;
         -webkit-transition: .3s;
     }
-    .back_color {
-        background-color: #f4f0ca;
-        padding-top: 15px;
-        padding-right: 15px;
-        padding-bottom: 35px;
-        padding-left: 10px;
-        -moz-background-color: #f4f0ca;
-        -moz-padding-top: 15px;
-        -moz-padding-right: 15px;
-        -moz-padding-bottom: 35px;
-        -moz-padding-left: 10px;
-        -ms-background-color: #f4f0ca;
-        -ms-padding-top: 15px;
-        -ms-padding-right: 15px;
-        -ms-padding-bottom: 35px;
-        -ms-padding-left: 10px;
-        -webkit-background-color: #f4f0ca;
-        -webkit-padding-top: 15px;
-        -webkit-padding-right: 15px;
-        -webkit-padding-bottom: 35px;
-        -webkit-padding-left: 10px;
+    #menubar a:hover::after {
+        bottom: -4px;
+        opacity: 1;
+        visibility: visible;
+        -moz-bottom: -4px;
+        -moz-opacity: 1;
+        -moz-visibility: visible;
+        -ms-bottom: -4px;
+        -ms-opacity: 1;
+        -ms-visibility: visible;
+        -webkit-bottom: -4px;
+        -webkit-opacity: 1;
+        -webkit-visibility: visible;
     }
     .main_title {
         font-size: 27px;
@@ -1047,6 +1031,33 @@ body {
         -webkit-padding-bottom: 10px;
         -webkit-padding-left: 15px;
     }
+    
+    .flex {
+        display: flex;
+    }
+
+    .back_color {
+        background-color: #f4f0ca;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 35px;
+        padding-left: 10px;
+        -moz-background-color: #f4f0ca;
+        -moz-padding-top: 15px;
+        -moz-padding-right: 15px;
+        -moz-padding-bottom: 35px;
+        -moz-padding-left: 10px;
+        -ms-background-color: #f4f0ca;
+        -ms-padding-top: 15px;
+        -ms-padding-right: 15px;
+        -ms-padding-bottom: 35px;
+        -ms-padding-left: 10px;
+        -webkit-background-color: #f4f0ca;
+        -webkit-padding-top: 15px;
+        -webkit-padding-right: 15px;
+        -webkit-padding-bottom: 35px;
+        -webkit-padding-left: 10px;
+    }
     .pic1 {
         padding-left: 15px;
         -webkit-padding-left: 15px;
@@ -1075,7 +1086,5 @@ body {
         -moz-padding: 15px;
         -ms-padding: 15px;
     }
-}
 
-
-/* PCサイズ終わり */
+/* 大きいPCサイズ終わり */
